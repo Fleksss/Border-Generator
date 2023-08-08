@@ -1,0 +1,33 @@
+.range-block {
+  padding: 10px;
+  background: #92B9BD;
+  width: 400px;
+  height: 400px;
+  border-radius: 5%;
+}
+
+p {
+  color: #C5F4E0;
+  letter-spacing: 2px;
+  display: flex;
+  align-items: center;
+  margin: 15px 0;
+}
+
+.bc {
+  background-color: var(--borColor);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  outline: none;
+  margin-right: 10px;
+}
+
+.bgc {
+  background-color: var(--borColor);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  outline: none;
+  margin-right: 10px;
+}

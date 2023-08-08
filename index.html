@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/main.css">
+  <title>Generator</title>
+</head>
+<body>
+  
+  <div class="container">
+    <div class="range-block">
+      <p><input type="range" min="0" max="200" value="0" step="1" class="all">All</p>
+      <p><input type="range" min="0" max="200" value="0" step="1" class="tl">Top Left</p>
+      <p><input type="range" min="0" max="200" value="0" step="1" class="tr">Top Right</p>
+      <p><input type="range" min="0" max="200" value="0" step="1" class="br">Bottom Right</p>
+      <p><input type="range" min="0" max="200" value="0" step="1" class="bl">Bottom Left</p>
+      <p><input type="range" min="0" max="50" value="0" step="1" class="bw">Border Width</p>
+      <p><input type="range" min="0" max="1" value="0" step="0.1" class="op">Opacity</p>
+      <p><input type="color" value="#C2EABA" class="bc">Border Color</p>
+      <p><input type="color" value="#A7C4A0" class="bgc">Background Color</p>
+    </div>
+
+    <div class="block">
+      <textarea disabled></textarea>
+    </div>
+
+    <div class="preview">
+      <div class="preview_btn">
+        <button class="preview_playBtn">Play</button>
+      </div>
+    </div>
+
+    <div class="area">
+      <ul class="circles">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </div>
+  </div>
+
+</body>
+
+<script src="./script.js"></script>
+</html>
